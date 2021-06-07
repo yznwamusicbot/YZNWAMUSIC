@@ -1,0 +1,40 @@
+{
+  "name": "YZNWAMUSIC",
+  "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat.Made By @Abcdmukakntl Powered by PyTgCalls.",
+  "logo": "https://telegra.ph/file/acc4bb3485bc18f573006.jpg",
+  "keywords": ["music", "voicechat", "telegram"],
+  "repository": "https://github.com/yznwamusicbot/YZNWAMUSIC",
+  "stack": "container",
+  "env": {
+    "SESSION_NAME": {
+      "description": "Pyrogram session string",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "A bot token from @BotFather",
+      "required": true
+    },
+    "BOT_NAME": {
+      "description": "Your MusicPlayer Bot Name.",
+      "required": false,
+      "value": ""
+    },
+    "API_ID": {
+      "description": "Search @UseTGXBot.Send Ur Phone Number To Bot And Copy Ur Web login Code & Send To @UseTGXBot",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Search @UseTGXBot.Send Ur Phone Number To Bot And Copy Ur Web login Code & Send To @UseTGXBot",
+      "required": true
+    },
+    "SUDO_USERS": {
+      "description": "Search @Missrose_bot.Start & Send /info.Copy Ur Id And Paste Here.",
+      "required": true
+    },
+    "DURATION_LIMIT": {
+      "description": "Max audio duration limit for downloads (minutes).",
+      "required": true,
+      "value": "30"
+    }
+  }
+}
