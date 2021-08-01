@@ -1,4 +1,4 @@
-# YZNWAMUSIC
+# YZNWA-MUSIC BOT
 [![LEGENDMUSIC logo](https://telegra.ph/file/4c96dc821c1d9375c033a.jpg)](https://t.me/Abcdmukakntl)
 
 
